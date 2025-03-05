@@ -38,6 +38,7 @@ def query_answering_system(query, document_dataset, embedding_model_name='BAAI/b
     # Load dataset
     df = pd.read_csv(document_dataset, encoding='utf-8')
     documents = [f"title: {d[1]}.  text: {d[2]}" for d in df.values.tolist()]
+    documents_id = [d[0] for d in df.values.tolist()]
 
     # Function to generate embeddings
     def generate_embeddings(texts):
@@ -56,13 +57,16 @@ def query_answering_system(query, document_dataset, embedding_model_name='BAAI/b
     similarities = cosine_similarity(query_embedding, documents_embedding)
     most_similar_indices = similarities.argsort()[0][-k:][::-1]
     retrieved_docs = [documents[i] for i in most_similar_indices]
+    retrieved_docs_id = [documents_id[i] for i in most_similar_indices]
 
     # Construct the prompt
     prompt = "Given the following documents:\n"
     prompt += "\n".join(f"{i+1}. {doc}" for i, doc in enumerate(retrieved_docs))
     prompt += f"\n\nUser query: {query}\n\n"
     prompt += "Based on the above documents, provide a concise, clear, and logically structured answer to the user's query.\n"
-    prompt += "Also please give me the basis for your answer."
+    prompt += "Only answer what is necessary for the question, under 40 words.\n"
+    prompt += "If the necessary answer is too long, condense it into key phrases or a short summary.\n"
+    prompt +=  "Avoid bullet points; respond in a fluid and natural sentence structure."
 
     # Generate response
     messages = [
@@ -73,7 +77,7 @@ def query_answering_system(query, document_dataset, embedding_model_name='BAAI/b
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     model_inputs = tokenizer([text], return_tensors="pt").to(generator_model.device)
 
-    generated_ids = generator_model.generate(**model_inputs, max_new_tokens=512)
+    generated_ids = generator_model.generate(**model_inputs, max_new_tokens=128)
     generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)]
     answer = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
@@ -82,7 +86,8 @@ def query_answering_system(query, document_dataset, embedding_model_name='BAAI/b
         'title': [
             re.search(r'title:\s*(.*?)\s*text:', doc).group(1).strip()
             for doc in retrieved_docs if re.search(r'title:\s*(.*?)\s*text:', doc)
-        ]
+        ],
+        'retrieved_docs_id': retrieved_docs_id
     }
 
     return output
