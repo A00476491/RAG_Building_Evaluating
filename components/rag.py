@@ -66,7 +66,7 @@ def query_answering_system(query, document_dataset, embedding_model_name='BAAI/b
     prompt += "Based on the above documents, provide a concise, clear, and logically structured answer to the user's query.\n"
     prompt += "Only answer what is necessary for the question, under 40 words.\n"
     prompt += "If the necessary answer is too long, condense it into key phrases or a short summary.\n"
-    prompt +=  "Avoid bullet points; respond in a fluid and natural sentence structure."
+    prompt += "Avoid bullet points; respond in a fluid and natural sentence structure."
 
     # Generate response
     messages = [
@@ -93,9 +93,13 @@ def query_answering_system(query, document_dataset, embedding_model_name='BAAI/b
     return output
 
 if __name__ == '__main__':
+
     query = "What option do civil servants in Malaysia have for their working hours during Ramadan, according to Communications Minister Fahmi Fadzil?"
     document_dataset = "../data/1K_news.csv"
     output = query_answering_system(query, document_dataset)
-    print(output)
+    print('Answer: {}'.format(output['answer']))
+    print('Reference1: {}'.format(output['title'][0]))
+    print('Reference1: {}'.format(output['title'][1]))
+    print('Reference1: {}'.format(output['title'][2]))
 
 
