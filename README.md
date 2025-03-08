@@ -1,3 +1,43 @@
+# Dataset Introduction
+
+For the knowledge base, we selected a dataset like this—a Malaysian news dataset containing 1,000 short news articles from Malaysia and other international regions.
+
+## Dataset Structure
+
+Each row in the dataset represents a news article and includes several columns:
+
+- **Article ID**: A unique identifier for the news article  
+- **Title**: The headline of the news article  
+- **Text**: The main content of the article  
+- **Category**: The category of the news (e.g., politics, economy, sports, etc.)  
+- **Published Date**: The date the article was published  
+- **Word Count**: The total number of words in the article  
+
+
+# RAG Algorithm Implementation
+
+Here is our RAG implementation. This is a simple version of RAG, consisting of three steps: **index, query, and generation**.
+
+## 1. Index Step  
+In this step, we map the news articles to embeddings using a model called **bge-small**. This model is recommended in the assignment requirements and performs well for this task.
+
+## 2. Query Step  
+We compute the **cosine similarity** between the query and the article embeddings, then retrieve the **three most relevant articles** as references.
+
+## 3. Generation Step  
+We use a model called **Qwen-2.5.0.5b**, which is a small language model but performs well for its size. Specifically, we provide this model with the query and the retrieved documents, and it generates the final answer.
+
+To run the exeample code of RAG, use the following commands:
+
+```bash
+cd components
+```
+```bash
+python rag.py
+```
+
+
+
 # Q5
 
 ## Example for first One
