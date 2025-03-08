@@ -96,12 +96,12 @@ By comparing the question, the model answer, and the retrieved titles (or articl
 
 # Q6
 
-## Automatic evaluation Pipeline
+## Automated evaluation Pipeline
 
 ### What Needs to Be Automated?
 - Generate questions
 - Check retrieval Performance
-- Detect model hallucination
+- Detect model hallucinations
 
 ### Pipeline
 
@@ -120,6 +120,6 @@ By comparing the question, the model answer, and the retrieved titles (or articl
      - Top3 Accuracy
 
 4. **Detect Hallucination:**  
-   - Provide the question, answer and retrieved articles to ChatGPT.  
-   - Let ChatGPT determine if hallucination occured and provide a reason.
+   - Provide the answer and retrieved articles to ChatGPT.  
+   - Let ChatGPT determine if hallucinations occured and provide a reason.
    - Get (case article, answer, retrieved articles, hallucinated, reason)
