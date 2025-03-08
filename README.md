@@ -120,6 +120,10 @@ This example shows that while the question may be poorly chosen, the model's abi
 - **Demonstrated Competence:**  
   Even though this is a general question, the model's correct and concise answer shows its capability to handle basic factual queries effectively.
 
+- **original text:**
+  >ILAGAN CITY, Isabela: A portion of a newly retrofitted bridge in the Philippines collapsed on Thursday (Feb 27) night, with at least four vehicles damaged, the authorities have said.
+No injuries or...**The 720m bridge was first funded with a budget of 640 million pesos (US$11.6 million)** ... which was just completed in 2025. - Philippine Daily Inquirer/ANN
+
 - **Source Information:**  
   - **News ID:** 1567681  
   - **Category:** Politics
