@@ -1,0 +1,57 @@
+What is cosine similarity?
+
+Cosine similarity is a metric used to measure how similar two vectors (or data points) are in an n-dimensional space. It is often used in the context of text mining, information retrieval, and machine learning to determine the similarity between two documents or data points based on their content.
+
+The cosine similarity between two vectors A and B is calculated as:
+
+Cosine Similarity
+=(A⋅B)/(∣∣A∣∣×∣∣B∣∣)
+
+Where:
+
+A · B is the dot product of the vectors A and B.
+∣∣A∣∣ and ∣∣B∣∣ are the magnitudes (or Euclidean norms) of vectors A and B, respectively.
+
+Cosine similarity values:
+range 1 to -1
+1 means completely similar- aligned in the same direction
+0 means no similarity at all- orthogonal
+-1 means completely dissimilar- aligned in two opposite directions
+
+In lay man's terms, if two arrows are pointing in two directions, cosine similarity measures the similarity of their orientation, rather than how long the arrows are.
+
+Limitations of cosine similarity:
+
+1. Ignores Magnitude: Cosine similarity only considers the angle between two vectors and not their magnitude. This means that it doesn’t account for the overall size or length of the vectors, which could be important in some contexts. For example, if two documents have similar words but one is much longer than the other, cosine similarity will consider them as similar even if their content is different in scale.
+
+2. Assumes Equal Importance of All Terms: Cosine similarity does not differentiate between words based on their meaning or frequency in a particular context. For example, common prepositions like ("the", "is", etc.) can distort the results, even though they may not be meaningful.
+
+3. Doesn't Handle Synonyms or Semantic Meaning: Cosine similarity measures only the presence or absence of terms in vectors, without considering synonyms or semantic relationships. Two documents with similar meaning but using different words (e.g., "car" vs. "automobile") might be considered dissimilar, even though they convey the same content.
+
+4. Sensitive to High-Dimensionality: Cosine similarity can suffer from the curse of dimensionality when the feature space is too high (as in the case of text data with many terms). With high-dimensional vectors, the cosine similarity between any two vectors tends to be similar (close to zero), making it harder to differentiate between vectors effectively.
+
+5. Doesn't Handle Sparse Data Well: In applications like text mining, where vectors tend to be sparse (many zero values), cosine similarity can lead to misleading results because it may not capture the true similarity between documents with many zero words.
+
+6. Assumes Non-Negativity: Cosine similarity assumes that the vectors being compared have only non-negative values. This is fine for certain types of data (like term frequency), but can be problematic when negative values are meaningful (e.g., when analyzing sentiment or other types of numerical data). For example, if a word in a sentence is changed like "love" to "hate", cosine similarity will still measure both the sentences as quite similar as other words in the sentence are same. Moreover, it doesn't consider "love" and "hate" as antonyms. In human terms, "love" and "hate" should be in opposite directions.
+
+7. Doesn't Work Well for Small Datasets: For small datasets, cosine similarity may not provide meaningful results because there isn't enough data to reliably measure similarity between items.
+
+Why it did not work well?
+
+According to the analysis of the retreived answers, the model did not really work as it tried to match words from the questions and the text without understanding the meaning of them.
+
+For example:
+
+Question:
+1.  How did the number of foreign tourists visiting North Korea change in 2024 compared to previous years?
+
+Answer Retrieved: The number of foreign tourists visiting North Korea in 2024 has decreased compared to previous years, with only around one in six citizens holding valid passports.
+
+Actual Answer: A small group of foreign tourists has visited North Korea in the past week, making them the first international travellers to enter the country in five years except for a group of Russian tourists who went to the North last year.
+
+Therefore, there was literally no tourist in the last five years. So in 2024, the number foriegn tourists in North Korea has definitely increased. However, the model chose similar words from the documents but could not give a meaningful answer. The second part of the answer "with only around one in six citizens holding valid passports" has been taken from a completely different document (Doc ID 1562576) which is talking about Japnese tourists and number of Japanese citizens holding valid passports. This article was complete irrelevant to the question asked. Therefore, it's a false positive retrieval.
+
+Comments on the accuracy of the model:
+
+Please refer to Sheet 2 of the Excel sheet for the calculation of the model accuracy.
+The recall value is pretty higher than the precision, i.e, it's not missing the relevant documents, but all the documents retrieved might not contain relevant information. Secondly, since most of the questions used to test the model are from similar topics, the calculations might be biased. 
