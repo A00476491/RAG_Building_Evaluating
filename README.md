@@ -42,3 +42,33 @@
 **Conclusion**:  
 By comparing the question, the model answer, and the retrieved titles (or articles), we see the model’s response may have combined unrelated snippets—common in generative models when retrieval is off-target or the content is insufficient. This is why a careful review is essential to detect hallucinations or mismatch between the question and the retrieved documents.Breaking it down:
 
+
+# Q6
+
+## Automatic evaluation Pipeline
+
+### What Needs to Be Automated?
+- Generate questions
+- Check retrieval Performance
+- Detect model hallucination
+
+### Pipeline
+
+1. **Generate Questions:**  
+   - Provide 100 case articles to ChatGPT and let it generate a question for each case article. 
+   - Get (case article, question)
+
+2. **Generate Answers:**  
+   - Use our RAG model to answer the generated questions.
+   - Get (case article, question, answer, retrieved articles)
+
+3. **Evaluate Retrieval Performance:**  
+   - Check if each case article is in the retrieved articles using:
+     - Top1 Accuracy
+     - Top2 Accuracy
+     - Top3 Accuracy
+
+4. **Detect Hallucination:**  
+   - Provide the question, answer and retrieved articles to ChatGPT.  
+   - Let ChatGPT determine if hallucination occured and provide a reason.
+   - Get (case article, answer, retrieved articles, hallucinated, reason)
