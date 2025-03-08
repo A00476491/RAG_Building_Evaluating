@@ -1,0 +1,383 @@
+Question,Category,Reason,Source_Title,Source_Category,Generated_Answer,Retrieved_Docs_ID1,Retrieved_Docs_ID2,Retrieved_Docs_ID3,Retrieved_Document1,Retrieved_Document2,Retrieved_Document3
+Here are 20 questions based on the news articles provided:,General,无理由（可能格式错误）,未知新闻,未知类别,"1. Eden's net profit leaps fivefold to RM3.34mil in 2QFY25, nearly six times the net profit of RM569,000 recorded in the same quarter in the year before.
+2. The group's earnings per share rose to 0.66 sen during the quarter from 0.12 sen previously.
+3. The energy segment remained the group's primary earnings driver despite posting lower revenue, as it benefited from operational cost optimisation and efficiency enhancements.
+4. The food and beverage and tourism segment reported higher profits, while posting a slightly higher RM14.3mil in revenue in 1HFY25.
+5. Sime Motors is offering to buy all brands of good-conditioned electric vehicles under its newly-launched dealership.
+6. The body of ship crew member found near Masjid Kristal was discovered floating near Masjid Kristal on Thursday night (Feb 27).
+7. The identification process was carried out by the victim’s father and wife.
+8. The victim’s sister, Siti Zarina Muhammad, 42, said that her late brother had only a small wound on his head, believed to have been caused by striking a hard object during the fall.
+9. The family was deeply saddened, but relieved that her youngest brother’s body had been found.
+10. The victim’s sister, Siti Zarina Muhammad, 42, said that her late brother had only a small wound on his head, believed to have been caused by striking a hard object during the fall.
+11. The body of a ship crew member, reported to have fallen into the Sungai Terengganu estuary while cleaning the ship, was discovered floating near Masjid Kristal on Thursday night (Feb 27).
+12. The identification process was carried out by the victim’s father and wife.
+13. The victim’s sister, Siti Zarina Muhammad, 42, said that her late brother had only a small wound on his head, believed to have been caused by striking a hard object during the fall.
+14. The family was deeply saddened, but relieved that her youngest brother’s body had been found.
+15. The body of a ship crew member, reported to have fallen into the Sungai Terengganu estuary while cleaning the ship, was discovered floating near Masjid Kristal on Thursday night (Feb 27).
+16. The identification process was carried out by the victim",1,2,3,Eden's net profit leaps fivefold to RM3.34mil in 2Q.,"Sime Motors launches EV NEXT, an expert in used EVs.",Body of ship crew member found near Masjid Kristal.
+What is the main event in this news article?,Good,This question can test whether the AI can correctly identify the major event in the news.,"""2024 UN Climate Summit""","""International News""","The main event in this news article is the debate between US lawmakers and Congress on updating their wavelength policies or being left behind by China. The article discusses the urgent need for the US to address the rapidly expanding spectrum policies of China, which threatens to eclipse US innovation and military readiness. The debate is centered around the issue of how to balance urgent economic priorities with national security needs.",4,5,6,"Fostering ties, pledging service to the public.","Sales growth, stable earnings to bolster UOA.","US must update its wavelength policies or be left behind by China, Congress hears."
+Who is the author's favorite food?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""Technology Breakthrough""","""Technology News""","The author's favorite food is not explicitly mentioned in the given documents. However, based on the context and the information provided, it can be inferred that the author's favorite food is likely to be a combination of various cuisines and flavors. The author's favorite food is not explicitly mentioned in the given documents, but it can be inferred that the author's favorite food is likely to be a combination of various cuisines and flavors.",7,8,9,Russia says has taken back major chunk of Kursk region from Ukrainian forces.,"Deutsche Telekom CEO calls on incoming German government, Europe to invest in AI.",Nissan to replace CEO after failed Honda deal.
+Who are the people mentioned in this news article?,General,This question is based on the content of the news but does not require deep reasoning by the AI.,"""Latest Economic Policy Analysis""","""Economic News""","The people mentioned in this news article are:
+1. Home Minister Datuk Seri Saifuddin Nasution Ismail
+2. Malaysian police chief ACP Azli Mohd Noor
+3. Malaysian ship crew member Ahmad Nasaruddin Muhamad
+4. Malaysian ship crew member Siti Zarina Muhammad
+5. Malaysian ship crew member's father and wife
+6. Malaysian ship crew member's sister
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional",10,11,12,"Philippines, NZ closer to signing deal on visiting forces.",Security guard training to be enhanced following Setia Alam mall shooting.,Body of ship crew member found near Masjid Kristal.
+What is the cause of the recent increase in the number of COVID-19 cases?,Good,This question can test whether the AI can identify the main reason for the recent surge in COVID-19 cases.,"""Rise in COVID-19 Cases Linked to New Strain""","""Health News""","The recent increase in the number of COVID-19 cases can be attributed to several factors. Firstly, the global spread of the virus has led to a surge in cases in many countries, including Malaysia. Secondly, the lack of effective vaccines and treatments has made it difficult for people to get vaccinated, leading to a higher number of cases. Thirdly, the lack of proper hygiene practices and social distancing measures has also contributed to the spread of the virus. Additionally, the lack of proper sanitation and hygiene facilities has also contributed to the spread of the virus. Lastly, the lack of proper healthcare infrastructure and access to medical care has also contributed to the spread of the virus.",13,14,15,NexG poised for growth with tech expansion.,Cricket-Latham lauds Ravindra's match-winning century in new batting role.,Izzah shows why she’s the country’s track cycling queen.
+What is the author's favorite color?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""Scientific Breakthrough in Cancer Treatment""","""Medical News""","The author's favorite color is not explicitly mentioned in the given documents. However, based on the context and the information provided, it can be inferred that the author's favorite color is not explicitly mentioned in the documents.",16,17,18,Yen climbs to strongest this year versus dollar on BOJ hike bets.,"Soccer-Man City’s Haaland in race to be fit for Spurs clash, says Guardiola.",Assistance dogs help to calm nervous travellers in the airport.
+What are the potential consequences of the recent cyber attack on a major company?,Good,This question can test whether the AI can identify the possible repercussions of the recent cyber attack.,"""Cyber Attack on Company Could Lead to Data Theft""","""Technology News""","The recent cyber attack on a major company could have several potential consequences, including:
+
+1. Damage to reputation: The attack could have a significant impact on the company's reputation, causing a loss of trust and confidence among its customers, investors, and employees.
+
+2. Financial losses: The attack could result in significant financial losses for the company, including lost revenue, increased costs, and potential bankruptcy.
+
+3. Legal consequences: The attack could also lead to legal consequences, including fines, penalties, and reputational damage, depending on the severity of the attack.
+
+4. Damage to business relationships: The attack could damage business relationships with other companies, customers, and partners, leading to a loss of business opportunities and revenue.
+
+5. Loss of customer trust: The attack could lead to a loss of customer trust, which could have a negative impact on the company's stock price and overall financial performance.
+
+6. Legal and regulatory consequences: The attack could also lead to legal and regulatory consequences, including fines, penalties, and reputational damage, depending on the severity of the attack.
+
+Overall, the potential consequences of the recent cyber attack on a major company could be significant, and it is important for the company to take steps to mitigate the impact and address any legal and regulatory consequences.",19,20,21,Asean nations embrace 'visitor' terminology for streamlined tourism statistics.,Body of elderly woman found floating in Melaka River.,"RHB posts higher FY24 net profit of RM3.12bil, interim div of 28c/share."
+What is the author's hometown?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""New Discovery in Space Exploration""","""Science News""","The author's hometown is Moscow, Russia.",22,23,24,Yen climbs to strongest this year versus dollar on BOJ hike bets.,Mi Technovation expects a volatile FY25 amid global uncertainties.,Russia says has taken back major chunk of Kursk region from Ukrainian forces.
+Who are the potential candidates for the upcoming presidential election?,Good,This question can test whether the AI can identify the possible contenders in the next presidential election.,"""Possible Candidates for Upcoming Presidential Election""","""Politics News""","The potential candidates for the upcoming presidential election are those who have a strong following and a track record of success in the past. These candidates may include those who have a strong political platform, a strong track record of success in the past, and a strong network of supporters. Additionally, those who have a strong connection to the community and have a strong track record of engagement with the public may also be potential candidates. It is important to note that the exact candidates may vary depending on the specific election and the political climate at the time.",25,26,27,Ongoing digitalisation to strengthen TM’s growth.,Brunei-Japan ties strengthened over 40 years: Envoy.,KL ‘iftar’ spread pays homage to Malaysia’s culinary heritage.
+What is the author's favorite musical instrument?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""Latest Advances in Artificial Intelligence""","""Technology News""",The author's favorite musical instrument is cricket.,28,29,30,Lions Club group visits The Star’s Penang office.,Yen climbs to strongest this year versus dollar on BOJ hike bets.,Cricket-New Zealand's Ravindra keen to play against India in dead rubber.
+What is the current situation regarding the ongoing conflict in the Middle East?,Good,This question can test whether the AI can provide an update on the current state of affairs in the conflict zone.,"""Situation in Middle East Conflict Zone Remains Tense""","""International News""","The ongoing conflict in the Middle East is a complex and multifaceted issue that has been ongoing for several decades. It involves a range of factors, including political, economic, and social issues. The conflict has been characterized by violence, displacement, and displacement, as well as by the rise of extremist groups such as ISIS and al-Qaeda. The conflict has also had a significant impact on the region, with many countries experiencing economic and social challenges as a result of the conflict. The conflict has also had a significant impact on the global economy, with many countries experiencing economic and financial challenges as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global security situation, with many countries experiencing increased tensions and instability as a result of the conflict. The conflict has also had a significant impact on the global political",31,32,33,Selangor civil servants allowed to leave work 30 minutes early during Ramadan.,"Japan's Murata eyeing large-scale M&A to drive growth, CEO says.",SC invites applications for visiting fellowship programme.
+What is the author's favorite type of pet?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""New Discovery in Cancer Research""","""Science News""",The author's favorite type of pet is a dog.,34,35,36,Gene Hackman: Director Francis Ford Coppola mourns death of a 'great artist'.,Two ex-company directors charged with cheating.,"Citaglobal's net profit jumps 60% in FY24, declares maiden dividend."
+What are the potential impacts of the recent climate change report on global economies?,Good,This question can test whether the AI can identify the possible effects of the climate change report on the global economy.,"""Climate Change Report Could Affect Global Economies""","""Economic News""","The recent climate change report has significant implications for global economies. The report highlights the urgent need for action to address climate change, which is a major threat to human health, the environment, and economic stability.
+
+The report emphasizes the need for countries to take action to reduce greenhouse gas emissions and transition to renewable energy sources. This will help to mitigate the impacts of climate change and protect the planet for future generations.
+
+The report also highlights the importance of investing in sustainable infrastructure, such as renewable energy, transportation, and energy efficiency. This will help to reduce the dependence on fossil fuels and promote a more sustainable economy.
+
+The report also emphasizes the need for international cooperation and collaboration to address climate change. This will require countries to work together to develop and implement policies and strategies to address the issue.
+
+Overall, the recent climate change report has significant implications for global economies, highlighting the urgent need for action to address climate change and promote a more sustainable future. - Bernama
+4. title: Sime Motors launches EV NEXT, an expert in used EVs.  text: PETALING JAYA: Sime Motors is offering to buy all brands of good-conditioned electric vehicles (EV) under its newly-launched dealership.
+
+Called EV NEXT, the dealership will be a one-stop centre for all used EVs with regard to trade-ins and aftersales support.
+
+Sime Motors managing director of SouthEast-Asia Jeffrey Gan said the company sees a demand in good-conditioned used EVs in the market.
+
+Complementing EV NEXT is Drivecare, an independent aftersales network under Sime Motors.
+
+Sime Motors said it is equipped with the latest technology and tools, along with certified and skilled technicians, to ensure that the EVs - including their batteries - remain in top-notch condition for the road.
+
+For customers looking to trade in their EV or purchase a used one, they can visit the EV NEXT showrooms in Glenmarie, Chan Sow Lin, and TREC Kuala Lumpur.
+
+EV NEXT is expanding nationwide, with new locations at Penang, Tebrau and Johor Bahru.
+
+“We are confident in delivering high quality products to our customers.
+
+“Our comprehensive end-to-end service ensures peace of mind throughout their EV ownership experience.
+
+“By doing so, we aim to build trust, reliability and confidence at every stage of the EV ownership experience,” Gan said.
+
+User query: What are the potential impacts of the recent climate change report on global economies?
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+",37,38,39,"More flood evacuees in Pahang, fewer in Negri Sembilan.",Cambodia launches project to improve disposal capacity of plastic litter in urban provinces.,"Sime Motors launches EV NEXT, an expert in used EVs."
+What is the author's favorite sport?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""Latest Advancements in Artificial Intelligence""","""Technology News""","Based on the given documents, the author's favorite sport is not explicitly mentioned. However, based on the context and the information provided, it can be inferred that the author is discussing the importance of updating the wavelength policies of the US to ensure that it remains ahead of China.",40,41,42,Yen climbs to strongest this year versus dollar on BOJ hike bets.,"Man, 58, gets seven years’ jail after pleading guilty to molesting minor.","US must update its wavelength policies or be left behind by China, Congress hears."
+Who are the key players involved in the recent negotiations regarding the international trade agreement?,Good,This question can test whether the AI can identify the main parties involved in the trade agreement negotiations.,"""Key Players in International Trade Agreement Negotiations""","""Politics News""","The recent negotiations regarding the international trade agreement are centered around the following key players:
+
+1. The United States: The United States is the primary negotiating partner for the agreement, with President Biden and his administration playing a significant role in the negotiations.
+
+2. China: China is a significant player in the negotiations, with President Xi Jinping and his administration playing a key role in the discussions.
+
+3. Japan: Japan is also a significant player in the negotiations, with Prime Minister Shinzo Abe and his administration playing a key role in the discussions.
+
+4. India: India is also a significant player in the negotiations, with Prime Minister Narendra Modi and his administration playing a key role in the discussions.
+
+5. Australia: Australia is also a significant player in the negotiations, with Prime Minister Scott Morrison and his administration playing a key role in the discussions.
+
+6. Singapore: Singapore is also a significant player in the negotiations, with Prime Minister Lee Hsien Loong and his administration playing a key role in the discussions.
+
+7. Malaysia: Malaysia is also a significant player in the negotiations, with Prime Minister Najib Razak and his administration playing a key role in the discussions.
+
+8. Indonesia: Indonesia is also a significant player in the negotiations, with Prime Minister Joko Widodo and his administration playing a key role in the discussions.
+
+9. Vietnam: Vietnam is also a significant player in the negotiations, with Prime Minister Nguyen Xuan Phuc and his administration playing a key role in the discussions.
+
+10. Thailand: Thailand is also a significant player in the negotiations, with Prime Minister Prayut Chan-o-cha and his administration playing a key role in the discussions.
+
+11. Cambodia: Cambodia is also a significant player in the negotiations, with Prime Minister Hun Sen and his administration playing a key role in the discussions.
+
+12. Vietnam: Vietnam is also a significant player in the negotiations, with Prime Minister Nguyen Xuan Phuc and his administration playing a key role in the discussions.
+
+13. Thailand: Thailand is also a significant player in the negotiations, with Prime Minister Prayut Chan-o-cha and his administration playing a key role in the discussions.
+
+14. Indonesia: Indonesia is also a significant player in the negotiations, with Prime Minister Joko Widodo and his administration playing a key role in the discussions.
+
+15. Malaysia: Malaysia is also a significant player in the negotiations, with Prime Minister Najib Razak and his administration playing a key role in the discussions.
+
+16. Singapore: Singapore is also a significant player",43,44,45,Cambodia launches project to improve disposal capacity of plastic litter in urban provinces.,"Nearly 44,000 switch to online water billing in Selangor.",JDT power to 11th straight title with 2-0 win over Perak.
+What is the author's favorite hobby?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""New Discovery in Space Exploration""","""Science News""","The author's favorite hobby is ""assistance dogs"" who help calm nervous travellers in the airport.",46,47,48,Yen climbs to strongest this year versus dollar on BOJ hike bets.,"Soccer-Man City’s Haaland in race to be fit for Spurs clash, says Guardiola.",Assistance dogs help to calm nervous travellers in the airport.
+What are the potential consequences of the recent cyber attack on a major government agency?,Good,This question can test whether the AI can identify the possible repercussions of the recent cyber attack on a government agency.,"""Cyber Attack on Government Agency Could Lead to Data Theft""","""Politics News""","The potential consequences of the recent cyber attack on a major government agency could be numerous and varied. Here are some possible outcomes:
+
+1. Damage to reputation: The attack could have a significant impact on the agency's reputation, causing a loss of trust and credibility among its stakeholders, including the public, customers, and employees.
+
+2. Financial losses: The attack could result in significant financial losses for the government agency, including lost revenue, increased costs, and potential legal liabilities.
+
+3. Legal consequences: The attack could lead to legal consequences, including fines, penalties, and reputational damage, depending on the severity of the attack and the extent of the damage caused.
+
+4. Loss of data: The attack could result in the loss of sensitive data, including personal information, financial records, and other confidential information, which could have serious implications for the agency's operations and decision-making processes.
+
+5. Public relations impact: The attack could have a negative impact on the agency's public relations, as it could lead to a loss of trust and credibility among its stakeholders, which could have a ripple effect on the agency's reputation.
+
+6. Regulatory compliance: The attack could result in the agency failing to meet regulatory compliance requirements, which could have serious implications for its operations and future business prospects.
+
+7. Legal and regulatory implications: The attack could have legal and regulatory implications, including potential fines, penalties, and reputational damage, depending on the severity of the attack and the extent of the damage caused.
+
+Overall, the potential consequences of the recent cyber attack on a major government agency could be severe and long-lasting, with significant financial, legal, and reputational impacts. It is essential for the agency to take immediate steps to address the issue and prevent similar attacks in the future.",49,50,51,Russia's Yandex reports record annual revenues for 2024.,Body of elderly woman found floating in Melaka River.,Indonesia says Apple should soon be cleared to sell iPhone 16s.
+What is the author's favorite type of food?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""Latest Advances in Artificial Intelligence""","""Technology News""","The author's favorite type of food is not explicitly mentioned in the given documents. However, based on the context and the information provided, it can be inferred that the author's favorite type of food is likely to be a combination of various cuisines and flavors. The author's interest in potential candidates to succeed Makoto Uchida, who is the 22-year company veteran, suggests that the author may have a strong interest in exploring new culinary experiences and flavors. Additionally, the author's interest in potential candidates to succeed in the face of a record debt bill coming due next year with all three major credit graders has led them to consider exploring new financial strategies and opportunities. Overall, the author's favorite type of food is likely to be a combination of various cuisines and flavors, and their interest in potential candidates to succeed in the face of a record debt bill suggests that they may have a strong interest in exploring new culinary experiences and flavors.
+4. title: Nasa's Orion capsule is ready for launch.  text: NASA's Orion capsule is ready for launch, the agency said on Wednesday, after a successful test flight of the spacecraft's first stage.
+
+The capsule, which is expected to launch in 2024, will be the first spacecraft to carry humans into space in the coming decades, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International Space Station (ISS) in 2024, the agency said.
+
+The capsule is expected to carry astronauts to the International",52,53,54,Russia says has taken back major chunk of Kursk region from Ukrainian forces.,"Deutsche Telekom CEO calls on incoming German government, Europe to invest in AI.",Nissan to replace CEO after failed Honda deal.
+What are the potential implications of the recent scientific breakthrough in the field of medicine?,Good,This question can test whether the AI can identify the possible consequences of the recent medical breakthrough.,"""Scientific Breakthrough in Medicine Could Lead to New Treatments""","""Health News""","The recent scientific breakthrough in the field of medicine is the discovery of a new drug that can treat a rare genetic disorder. This drug is being developed by a pharmaceutical company and is expected to be available in the near future. The discovery of this drug is a significant breakthrough in the field of medicine as it represents a major advancement in the treatment of a previously untreatable disease. The potential implications of this breakthrough are numerous, including the possibility of improving the quality of life for patients with this rare genetic disorder, as well as the potential for the development of new treatments and therapies for other diseases.",55,56,57,Aqil gets it right to land first Under-17 national junior title.,Salesforce falls after weak annual forecast puts spotlight on AI monetization.,StanChart sets US$1.5bil buyback after 18% rise in annual profit.
+What is the author's favorite type of transportation?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""New Discovery in Space Exploration""","""Science News""","The author's favorite type of transportation is ""vehicle"" as it is mentioned in the first document.",58,59,60,Solarvest net profit jumps 35% in 3Q25.,Genting Plantations appoints Lim Keong Hui as chief executive.,Microsoft develops AI model for videogames.
+Who are the potential candidates for the upcoming presidential election?,Good,This question can test whether the AI can identify the possible contenders in the next presidential election.,"""Possible Candidates for Upcoming Presidential Election""","""Politics News""","The potential candidates for the upcoming presidential election are those who have a strong following and a track record of success in the past. These candidates may include those who have a strong political platform, a strong track record of success in the past, and a strong network of supporters. Additionally, those who have a strong connection to the community and have a strong track record of engagement with the public may also be potential candidates. It is important to note that the exact candidates may vary depending on the specific election and the political climate at the time.",61,62,63,Ongoing digitalisation to strengthen TM’s growth.,Brunei-Japan ties strengthened over 40 years: Envoy.,KL ‘iftar’ spread pays homage to Malaysia’s culinary heritage.
+What is the author's favorite type of music?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""Latest Advances in Artificial Intelligence""","""Technology News""","The author's favorite type of music is not explicitly mentioned in the given documents. However, based on the context and the information provided, it can be inferred that the author's favorite type of music is likely to be a mix of classical, jazz, and pop music. This is because the author mentions that they are ""a fan of classical, jazz, and pop music,"" which suggests that they enjoy a variety of musical genres. Additionally, the author mentions that they are ""a fan of classical, jazz, and pop music,"" which implies that they have a strong appreciation for these genres. Therefore, the author's favorite type of music is likely to be a mix of classical, jazz, and pop music.",64,65,66,Lions Club group visits The Star’s Penang office.,Cricket-New Zealand's Ravindra keen to play against India in dead rubber.,Yen climbs to strongest this year versus dollar on BOJ hike bets.
+What are the potential consequences of the recent cyber attack on a major financial institution?,Good,This question can test whether the AI can identify the possible repercussions of the recent cyber attack on a financial institution.,"""Cyber Attack on Financial Institution Could Lead to Data Theft""","""Economics News""","The recent cyber attack on a major financial institution has several potential consequences. Firstly, it could lead to a loss of trust and confidence in the institution, as well as damage to its reputation. Secondly, it could result in financial losses for the institution, as cyber attacks can lead to data breaches and other forms of financial fraud. Thirdly, it could lead to legal consequences, as the institution may be held liable for any damages caused by the attack. Finally, it could have a significant impact on the institution's operations, as it may be required to implement new security measures to prevent future attacks.",67,68,69,Body of elderly woman found floating in Melaka River.,Asean nations embrace 'visitor' terminology for streamlined tourism statistics.,US military commander meets Panama Canal administrator to discuss countering China.
+What is the author's favorite type of exercise?,Bad,This question is unrelated to the news and the AI cannot answer it.,"""New Discovery in Space Exploration""","""Science News""","The author's favorite type of exercise is ""physical exercise."" This is evident from the title of the document, ""Yen climbs to strongest this year versus dollar on BOJ hike bets."" The text mentions that the yen has reached its strongest level against the dollar since December, which is a form of physical exercise. The author also mentions that the BOJ's governor Kazuo Ueda said that he did not discuss rising yields in a meeting with Japanese Prime Minister Shigeru Ishiba, which is another form of physical exercise. The author also mentions that the central bank's governor Kazuo Ueda said that he did not discuss rising yields in a meeting with Japanese Prime Minister Shigeru Ishiba, which is another form of physical exercise. The author also mentions that the author's friend, Yujiro Goto, head of FX strategy at Nomura Securities Co., in a note, said that the event also featured trivia with questions revolving around MCA. This is another form of physical exercise. The author's favorite type of exercise is ""physical exercise."" This is evident from the title of the document, ""Yen climbs to strongest this year versus dollar on BOJ hike bets."" The text mentions that the yen has reached its strongest level against the dollar since December, which is a form of physical exercise. The author also mentions that the BOJ's governor Kazuo Ueda said that he did not discuss rising yields in a meeting with Japanese Prime Minister Shigeru Ishiba, which is another form of physical exercise. The author also mentions that the central bank's governor Kazuo Ueda said that he did not discuss rising yields in a meeting with Japanese Prime Minister Shigeru Ishiba, which is another form of physical exercise. The author's friend, Yujiro Goto, head of FX strategy at Nomura Securities Co., in a note, said that the event also featured trivia with questions revolving around MCA. This is another form of physical exercise. The author's favorite type of exercise is ""physical exercise."" This is evident from the title of the document, ""Yen climbs to strongest this year versus dollar on BOJ hike bets."" The text mentions that the yen has reached its strongest level against the dollar since December, which is a form of physical exercise. The author also mentions that the BOJ's governor Kazuo Ueda said that he did not discuss rising yields in a meeting with Japanese Prime Minister Shigeru Ishiba, which is another form of physical exercise. The author also mentions that the central bank's",70,71,72,Yen climbs to strongest this year versus dollar on BOJ hike bets.,MCA celebrates media friends with a Chinese New Year-themed event.,India Sees ‘Notable’ Progress With China as Ministers Meet.
