@@ -45,7 +45,7 @@ For example:
 Question:
 1.  How did the number of foreign tourists visiting North Korea change in 2024 compared to previous years?
 
-Answer Retrieved: The number of foreign tourists visiting North Korea in 2024 has decreased compared to previous years, with only around one in six citizens holding valid passports.
+Answer Retrieved: The number of foreign tourists visiting North Korea in 2024 has decreased compared to previous years, with only around one in six citizens holding valid passports. (Refer to TestQuestion23_with_answers (3))
 
 Actual Answer: A small group of foreign tourists has visited North Korea in the past week, making them the first international travellers to enter the country in five years except for a group of Russian tourists who went to the North last year.
 
