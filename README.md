@@ -38,6 +38,93 @@ cd components
 ```bash
 python rag.py
 ```
+# Q3
+- **Good Questions** are designed to test in-depth comprehension and extraction of key facts. They focus on the main impacts or core details of the news.
+- **Bad Questions** intentionally ask for irrelevant or absurd details that are not mentioned in the news, to test how the AI handles out-of-scope queries.
+- **General Questions** are basic fact-recall questions that do not require deep interpretation.
+
+## Example of good performance
+
+### Question: 
+>Given the tensions between Hungary and its Western allies, what are the potential implications of the U.S.-Hungary relationship in the context of the ongoing conflict in Ukraine?
+
+### Answer (Sample): 
+>The potential implications of the U.S.-Hungary relationship in the context of the ongoing conflict in Ukraine could include increased cooperation between the two countries, as well as potential for a shift in the U.S. position on the conflict. Additionally, the U.S.-Hungary relationship could potentially lead to a more stable and cooperative relationship between the two countries, as well as a potential for a more peaceful resolution to the conflict. However, it is important to note that the U.S.-Hungary relationship is complex and multifaceted, and there are potential risks and challenges that could arise from any changes in the relationship.
+
+### Explanation
+
+- **Complex and Relevant Context:**  
+  The question asks the model to consider both geopolitical tensions and their impact on bilateral relations, which requires integrating multiple layers of information (Hungary's relationship with Western allies, U.S. foreign policy, and the conflict in Ukraine).
+
+- **Testing Analytical Abilities:**  
+  By asking about potential implications, the question forces the model to reason about cause and effect. It needs to extract key factors from the news and evaluate how shifts in diplomatic relations might influence the ongoing conflict.
+
+- **Synthesis of Multiple Factors:**  
+  The answer shows that the model can identify several possible outcomes (increased cooperation, a shift in U.S. stance, more stable relationships, and even a more peaceful resolution) while acknowledging the complexity of the situation.
+
+- **Demonstrates Deep Understanding:**  
+  The question is not a simple fact-checking query; it requires the model to synthesize economic, diplomatic, and geopolitical insights. This is a strong indication that the model can handle multifaceted issues, which is why it is categorized as a "Good" question.
+
+- **Source Information:**  
+  - **News ID:** 1561362  
+  - **Category:** Others
+
+---
+
+## Example of poor performance
+### Question:  
+>What is the estimated weight of a single Puncak Alam Factory brick?
+
+### Answer (Sample):
+>The estimated weight of a single Puncak Alam Factory brick can be estimated by multiplying the volume of the brick by its density. The density of a brick can be estimated by dividing its weight by its volume. The volume of a brick can be estimated by measuring its dimensions and using the formula for the volume of a rectangular prism. The density of a brick can be estimated by dividing its weight by its volume. The estimated weight of a single Puncak Alam Factory brick can be estimated by multiplying the volume of the brick by its density.
+
+### Explanation:
+
+- **Irrelevance to the News:**  
+  The question asks for a technical calculation that is not related to any news content. It does not require extracting or analyzing information from a news article but merely applying a basic formula.
+
+- **Repetitive, Formulaic Response:**  
+  The answer provided is a generic explanation of how to calculate weight from volume and density. It repeats the same method several times without offering any specific details about the Puncak Alam Factory or any unique news context.
+
+- **Lack of Depth and Analysis:**  
+  A well-designed question should challenge the model to understand and synthesize complex, news-related information. This question, however, only triggers a standard, textbook-like response, which doesn't showcase the model's ability to process nuanced or contextually rich content.
+
+- **Evaluation Impact:**  
+  Since the question is too generic and disconnected from the news content, it fails to effectively evaluate the model's comprehension and reasoning abilities in a real-world news scenario.
+
+**Source Information:**  
+- **News ID:** 1566880  
+- **Category:** Business
+---
+
+This example shows that while the question may be poorly chosen, the model's ability to generate a well-reasoned answer remains a positive sign of its comprehension and reasoning capabilities.
+
+---
+
+## Example of normal performance
+
+### Question: 
+>How much was the initial budget for the Cabagan-Santa Maria Bridge?
+
+### Answer:
+>The initial budget for the Cabagan-Santa Maria Bridge was 640 million pesos (US$11.6 million).
+
+### Explanation:
+
+- **Straightforward Fact Retrieval:**  
+  The question asks for a specific, numerical fact directly from the news article. It doesn't require deep analysis but rather a precise extraction of a given number.
+
+- **Clarity and Simplicity:**  
+  Because the question is simple and clear, it serves to confirm that the model can accurately retrieve and present factual data without ambiguity.
+
+- **Demonstrated Competence:**  
+  Even though this is a general question, the model's correct and concise answer shows its capability to handle basic factual queries effectively.
+
+- **Source Information:**  
+  - **News ID:** 1567681  
+  - **Category:** Politics
+
+---
 
 # Q5
 
