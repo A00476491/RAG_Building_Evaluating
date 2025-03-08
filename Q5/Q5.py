@@ -46,9 +46,6 @@ def check_generated_answers(question_csv= "../data/TestQuestion20.csv",
         output = query_answering_system(
             query=question_text,
             document_dataset=document_csv,
-            embedding_model_name=embedding_model,
-            model_name=lm_model,
-            k=top_k
         )
         
         # output 应该是一个 dict，形式大致为：
