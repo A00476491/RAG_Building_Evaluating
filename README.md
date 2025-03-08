@@ -1,6 +1,9 @@
-# Dataset Introduction
+### Dataset Introduction
 
-For the knowledge base, we selected a dataset like this—a Malaysian news dataset containing 1,000 short news articles from Malaysia and other international regions.
+For our knowledge base, we have selected the **Malaysian News Dataset**, which consists of **1,000 short news articles** covering topics from **Malaysia and international regions**. This dataset is sourced from **Kaggle**, and it is regularly updated with new events.
+
+**Source:** [Kaggle - News Article (Weekly Updated)](https://www.kaggle.com/datasets/azraimohamad/news-article-weekly-updated?select=news_v1.csv)
+
 
 ## Dataset Structure
 
