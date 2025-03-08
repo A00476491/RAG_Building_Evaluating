@@ -1,24 +1,24 @@
-Question,retrieved_docs_id,True Positive,False Positive,False Negative,True Negative,Precision,Recall,F1,Accuracy
-1.  How did the number of foreign tourists visiting North Korea change in 2024 compared to previous years?,"[1567334, 1561982, 1562576]",1,2,0,997,0.333333333,1,0.5,0.998
-2.  What is the current situation regarding border traffic restrictions in North Korea?,"[1567334, 1565909, 1566854]",1,2,0,997,0.333333333,1,0.5,0.998
-3.  How does the recent trip by a small group of foreign tourists to North Korea signal the country's economic situation?,"[1567334, 1561982, 1566700]",1,2,0,997,0.333333333,1,0.5,0.998
-"4.  What is the current state of Rason, the northeastern North Korean border city, in terms of economic development?","[1567334, 1565909, 1567963]",0,3,0,997,0,#DIV/0!,#DIV/0!,0.997
-5.  How does the article's mention of a small group of foreign tourists visiting North Korea in February 2024 relate to the country's Covid-19 restrictions?,"[1567334, 1562721, 1561982]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"6.  What is the significance of Kim Il-sung and Kim Jong-il, the late grandfather and father of current leader Kim Jong-un, in North Korean culture and politics?","[1565909, 1567334, 1565170]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-7.  How does the recent trip by foreign tourists to North Korea align with the country's current efforts to reopen its borders?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"8.  What is the current state of North Korea's economy, and how has it been affected by Covid-19 restrictions?","[1567334, 1565909, 1567331]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-9.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's overall efforts to reopen its borders?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-10.  What are some potential challenges facing North Korea in terms of reopening its borders to international tourism?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"11.  How has the pandemic affected North Korea's ability to accept foreign tourists, and what steps has the country taken to address these challenges?","[1567334, 1561982, 1562576]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-12.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's diplomatic relations with other nations?,"[1567334, 1561982, 1561348]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-13.  What are some potential benefits for North Korea in terms of reopening its borders to international tourism?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-14.  How has the recent trip by foreign tourists to North Korea impacted the country's reputation and perception among other nations?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-15.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's isolation from the international community?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-16.  What are some potential implications of North Korea's decision to reopen its borders to international tourism?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"17.  How has the pandemic affected North Korea's ability to host foreign tourists, and what steps has the country taken to address these challenges?","[1567334, 1561982, 1562576]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-18.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's overall efforts to reopen its economy?,"[1567334, 1561982, 1566700]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"19.  What are some potential challenges facing North Korea in terms of reopening its borders to international tourism, and how has the pandemic affected these challenges?","[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"20.  How has the recent trip by foreign tourists to North Korea impacted the country's ability to attract international visitors, and what steps has the country taken to address any challenges in this regard?","[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!
-"21. What was the exchange rate of the ringgit against the US dollar at 6pm, according to the news report from Kuala Lumpur?","1566608, 1567974, 1567290",3,0,1,996,1,0.75,0.857142857,0.999
-22. What did the Court of Appeal in London rule regarding Lenovo's appeal for an interim licence to use Ericsson's patents?,"1567953, 1567451, 1566535",1,2,0,997,0.333333333,1,0.5,0.998
-23. What did the Sultan of Pahang instruct the public regarding discussions about former prime minister Datuk Seri Najib Razak?,"1567123, 1567260, 1566794",2,1,0,997,0.666666667,1,0.8,0.999
+Question,retrieved_docs_id,True Positive,False Positive,False Negative,True Negative,Precision,Recall,F1,Accuracy,Correct/Incorrect
+1.  How did the number of foreign tourists visiting North Korea change in 2024 compared to previous years?,"[1567334, 1561982, 1562576]",1,2,0,997,0.333333333,1,0.5,0.998,Incorrect
+2.  What is the current situation regarding border traffic restrictions in North Korea?,"[1567334, 1565909, 1566854]",1,2,0,997,0.333333333,1,0.5,0.998,Incorrect
+3.  How does the recent trip by a small group of foreign tourists to North Korea signal the country's economic situation?,"[1567334, 1561982, 1566700]",1,2,0,997,0.333333333,1,0.5,0.998,Incorrect
+"4.  What is the current state of Rason, the northeastern North Korean border city, in terms of economic development?","[1567334, 1565909, 1567963]",0,3,0,997,0,#DIV/0!,#DIV/0!,0.997,Incorrect
+5.  How does the article's mention of a small group of foreign tourists visiting North Korea in February 2024 relate to the country's Covid-19 restrictions?,"[1567334, 1562721, 1561982]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"6.  What is the significance of Kim Il-sung and Kim Jong-il, the late grandfather and father of current leader Kim Jong-un, in North Korean culture and politics?","[1565909, 1567334, 1565170]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+7.  How does the recent trip by foreign tourists to North Korea align with the country's current efforts to reopen its borders?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"8.  What is the current state of North Korea's economy, and how has it been affected by Covid-19 restrictions?","[1567334, 1565909, 1567331]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+9.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's overall efforts to reopen its borders?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+10.  What are some potential challenges facing North Korea in terms of reopening its borders to international tourism?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"11.  How has the pandemic affected North Korea's ability to accept foreign tourists, and what steps has the country taken to address these challenges?","[1567334, 1561982, 1562576]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+12.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's diplomatic relations with other nations?,"[1567334, 1561982, 1561348]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+13.  What are some potential benefits for North Korea in terms of reopening its borders to international tourism?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+14.  How has the recent trip by foreign tourists to North Korea impacted the country's reputation and perception among other nations?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+15.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's isolation from the international community?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+16.  What are some potential implications of North Korea's decision to reopen its borders to international tourism?,"[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"17.  How has the pandemic affected North Korea's ability to host foreign tourists, and what steps has the country taken to address these challenges?","[1567334, 1561982, 1562576]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+18.  How does the article's mention of a small group of foreign tourists visiting North Korea relate to the country's overall efforts to reopen its economy?,"[1567334, 1561982, 1566700]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"19.  What are some potential challenges facing North Korea in terms of reopening its borders to international tourism, and how has the pandemic affected these challenges?","[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"20.  How has the recent trip by foreign tourists to North Korea impacted the country's ability to attract international visitors, and what steps has the country taken to address any challenges in this regard?","[1567334, 1561982, 1567963]",,,,,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,
+"21. What was the exchange rate of the ringgit against the US dollar at 6pm, according to the news report from Kuala Lumpur?","1566608, 1567974, 1567290",3,0,1,996,1,0.75,0.857142857,0.999,Incorrect
+22. What did the Court of Appeal in London rule regarding Lenovo's appeal for an interim licence to use Ericsson's patents?,"1567953, 1567451, 1566535",1,2,0,997,0.333333333,1,0.5,0.998,Correct
+23. What did the Sultan of Pahang instruct the public regarding discussions about former prime minister Datuk Seri Najib Razak?,"1567123, 1567260, 1566794",2,1,0,997,0.666666667,1,0.8,0.999,Incorrect
