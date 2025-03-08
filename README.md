@@ -14,7 +14,7 @@ Each row in the dataset represents a news article and includes several columns:
 - **Word Count**: The total number of words in the article  
 
 
-# RAG Algorithm Implementation
+# RAG Algorithm
 
 Here is our RAG implementation. This is a simple version of RAG, consisting of three steps: **index, query, and generation**.
 
@@ -35,8 +35,6 @@ cd components
 ```bash
 python rag.py
 ```
-
-
 
 # Q5
 
