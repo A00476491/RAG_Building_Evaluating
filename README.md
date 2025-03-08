@@ -40,6 +40,10 @@ python rag.py
 
 # Q5
 
+## Overall
+
+ While the answers often appear specific—sometimes citing statistics or discussing policy changes, many include references or details (e.g., different countries, unrelated figures) not found in the corresponding retrieved document titles. This discrepancy suggests the model occasionally “hallucinates” or mixes content from other articles. 
+
 ## Example for first One
 
 1. **Question**  
