@@ -54,4 +54,5 @@ Therefore, there was literally no tourist in the last five years. So in 2024, th
 Comments on the accuracy of the model:
 
 Please refer to TestQuestion23_with_answers (2) of the Excel sheet for the calculation of the model accuracy.
-The recall value is pretty higher than the precision, i.e, it's not missing the relevant documents, but all the documents retrieved might not contain relevant information. Secondly, since most of the questions used to test the model are from similar topics, the calculations might be biased. 
+The recall value is pretty higher than the precision, i.e, it's not missing the relevant documents, but all the documents retrieved might not contain relevant information. Secondly, since most of the questions used to test the model are from similar topics, the calculations might be biased. We also have pretty high accuracy value, that is because True Negative is very high, i.e, the number of documents is very high and the model is chosing the relevant documents out of the large number of documents.
+
