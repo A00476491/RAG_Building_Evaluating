@@ -52,7 +52,7 @@ def query_answering_system(query, document_dataset):
     - answer (str): Generated response based on retrieved documents.
     """ 
 
-    # Index: map documents to embeddings
+    # Indexing: map documents to embeddings
     embedding_model = SentenceTransformer('BAAI/bge-small-en').to(device)
     embedding_cache_path = os.path.abspath(os.path.join(current_dir, '../data/document_embeddings.npy'))
     documents, documents_id, df = load_dataset(document_dataset)
@@ -103,5 +103,16 @@ if __name__ == '__main__':
     print('Reference1: {}'.format(output['title'][0]))
     print('Reference2: {}'.format(output['title'][1]))
     print('Reference3: {}'.format(output['title'][2]))
+
+
+    '''
+    Question: What was the net loss reported by 7-Eleven Malaysia Holdings Bhd for the fourth quarter ended December 31, 2024?
+    
+    Answer: The net loss reported by 7-Eleven Malaysia Holdings Bhd for the fourth quarter ended December 31, 2024 was RM2.66 mil.
+    
+    Reference1: 7-Eleven 4Q revenue rises to RM745mil
+    Reference2: 7-Eleven expects inflationary pressures from external headwinds
+    Reference3: Berjaya Corp net loss narrows to RM88.68mil in 2Q25
+    '''
 
 
