@@ -45,6 +45,12 @@ python rag.py
 
  While the answers often appear specific—sometimes citing statistics or discussing policy changes, many include references or details (e.g., different countries, unrelated figures) not found in the corresponding retrieved document titles. This discrepancy suggests the model occasionally “hallucinates” or mixes content from other articles. 
 
+ Based on a quick sample inspection, some answers mention unrelated country details or numeric values not found in the retrieved titles. If we assume these are “hallucinations,” here is a **sample outcome**:
+
+- **Answers with notable hallucinations**: ~6 out of 20  
+- **Answers mostly consistent**: ~14 out of 20  
+- **Estimated hallucination ratio**: ~30%
+
 ## Example for first One
 
 1. **Question**  
