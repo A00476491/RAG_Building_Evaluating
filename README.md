@@ -147,8 +147,11 @@ A · B is the dot product of the vectors A and B.
 
 Cosine similarity values:
 range 1 to -1
-1 means completely similar- aligned in the same direction
+
+where 1 means completely similar- aligned in the same direction
+
 0 means no similarity at all- orthogonal
+
 -1 means completely dissimilar- aligned in two opposite directions
 
 In lay man's terms, if two arrows are pointing in two directions, cosine similarity measures the similarity of their orientation, rather than how long the arrows are.
