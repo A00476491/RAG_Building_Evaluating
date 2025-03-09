@@ -48,7 +48,7 @@ python rag.py
 ### Question: 
 >Given the tensions between Hungary and its Western allies, what are the potential implications of the U.S.-Hungary relationship in the context of the ongoing conflict in Ukraine?
 
-### Answer (Sample): 
+### Answer: 
 >The potential implications of the U.S.-Hungary relationship in the context of the ongoing conflict in Ukraine could include increased cooperation between the two countries, as well as potential for a shift in the U.S. position on the conflict. Additionally, the U.S.-Hungary relationship could potentially lead to a more stable and cooperative relationship between the two countries, as well as a potential for a more peaceful resolution to the conflict. However, it is important to note that the U.S.-Hungary relationship is complex and multifaceted, and there are potential risks and challenges that could arise from any changes in the relationship.
 
 ### Explanation
@@ -75,7 +75,7 @@ python rag.py
 ### Question:  
 >What is the estimated weight of a single Puncak Alam Factory brick?
 
-### Answer (Sample):
+### Answer:
 >The estimated weight of a single Puncak Alam Factory brick can be estimated by multiplying the volume of the brick by its density. The density of a brick can be estimated by dividing its weight by its volume. The volume of a brick can be estimated by measuring its dimensions and using the formula for the volume of a rectangular prism. The density of a brick can be estimated by dividing its weight by its volume. The estimated weight of a single Puncak Alam Factory brick can be estimated by multiplying the volume of the brick by its density.
 
 ### Explanation:
