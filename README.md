@@ -175,7 +175,7 @@ In lay man's terms, if two arrows are pointing in two directions, cosine similar
 **Why it did not work well?**
 
 ** Please refer to TestQuestion23_with_answers (3).csv in Q4 folder for the question answer pair that was used to evaluate the model.
-** Please refer to 1K_news.csv in Data folder for the list of documents with content used in this assignment.
+** Please refer to 1K_news.csv in data folder for the list of documents with content used in this assignment.
 
 According to the analysis of the retreived answers, the model did not really work as it tried to match words from the questions and the text without understanding the meaning of them.
 
