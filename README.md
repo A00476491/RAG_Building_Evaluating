@@ -174,7 +174,7 @@ In lay man's terms, if two arrows are pointing in two directions, cosine similar
 
 **Why it did not work well?**
 
-** Please refer to TestQuestion23_with_answers (3).csv in Q4 for the question answer pair that was used to evaluate the model.
+** Please refer to TestQuestion23_with_answers (3).csv in Q4 folder for the question answer pair that was used to evaluate the model.
 
 According to the analysis of the retreived answers, the model did not really work as it tried to match words from the questions and the text without understanding the meaning of them.
 
@@ -190,6 +190,7 @@ Actual Answer: A small group of foreign tourists has visited North Korea in the 
 Therefore, there was literally no tourist in the last five years. So in 2024, the number foriegn tourists in North Korea has definitely increased. However, the model chose similar words from the documents but could not give a meaningful answer. The second part of the answer "with only around one in six citizens holding valid passports" has been taken from a completely different document (Doc ID 1562576) which is talking about Japnese tourists and number of Japanese citizens holding valid passports. This article was complete irrelevant to the question asked. Therefore, it's a false positive retrieval.
 
 **Comments on the accuracy of the model:**
+
 Please refer to TestQuestion23_with_answers (2).csv in Q4 folder for the calculation of the model accuracy.
 The recall value is pretty higher than the precision, i.e, it's not missing the relevant documents, but all the documents retrieved might not contain relevant information. Secondly, since most of the questions used to test the model are from similar topics, the calculations might be biased. We also have pretty high accuracy value, that is because True Negative is very high, i.e, the number of documents is very high and the model is chosing the relevant documents out of the large number of documents.
 
